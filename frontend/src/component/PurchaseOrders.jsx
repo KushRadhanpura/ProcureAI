@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { FileUp, Check, Send, Inbox, ShieldAlert, Award, ChevronDown, ChevronUp, Mail } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://procureai-zspz.onrender.com';
 
 const PurchaseOrders = ({ user }) => {
   const [orders, setOrders] = useState([]);

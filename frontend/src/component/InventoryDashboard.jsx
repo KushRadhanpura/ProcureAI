@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { AlertTriangle, CheckCircle2, ArrowDownCircle, HardDrive, ShoppingBag, ShieldAlert, BarChart3 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://procureai-zspz.onrender.com';
 
 const InventoryDashboard = ({ user }) => {
   const [inventory, setInventory] = useState([]);

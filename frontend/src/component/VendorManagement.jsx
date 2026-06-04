@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { Mail, Phone, MapPin, Tag, Plus, Users, ShieldAlert, Award } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://procureai-zspz.onrender.com';
 
 const VendorManagement = ({ user }) => {
   const [vendors, setVendors] = useState([]);

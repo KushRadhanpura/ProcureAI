@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { ArrowLeft, KeyRound, Mail, User, Building, Compass } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://procureai-zspz.onrender.com';
 
 const Logo = ({ light = false, showSubtitle = true }) => {
   return (
